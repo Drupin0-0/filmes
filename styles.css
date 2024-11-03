@@ -1,0 +1,71 @@
+body {
+    color: #ffffff;
+    background-color: #141414;
+    margin: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e50914;
+    padding: 20px;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Seção de destaque (chamada) */
+.chamada {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(20, 20, 20, 1)), url('https://img.youtube.com/vi/NM9SSEgyd5I/maxresdefault.jpg') center/cover no-repeat;
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.chamada-texto h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #e50914;
+}
+
+.chamada-texto p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Estilo da seção de categorias */
+.categoria {
+    padding: 20px;
+}
+
+.categoria h2 {
+    color: #e50914;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo da galeria de vídeos */
+.categoria-videos {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.categoria-videos a {
+    transition: transform 0.3s;
+}
+
+.categoria-videos a:hover {
+    transform: scale(1.05);
+}
+
+.categoria-videos img {
+    border-radius: 8px;
+    height: 180px;
+    transition: opacity 0.3s;
+}
+
+.categoria-videos img:hover {
+    opacity: 0.8;
+}
